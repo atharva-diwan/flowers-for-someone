@@ -109,3 +109,15 @@ a {
   fill: white;
   transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+  .title {
+    flex-wrap: nowrap;
+    gap: 0.2rem;
+    padding: 0 10px;
+  }
+
+  .title span {
+    font-size: 0.8em;
+  }
+}
