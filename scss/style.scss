@@ -80,7 +80,7 @@ body {
     .flower__line {
       $delay: 0.3s;
 
-      height: 70vmin;
+      height: 105vmin;
       animation-delay: $delay;
 
       &__leaf {
@@ -116,7 +116,7 @@ body {
     transform: rotate(20deg);
     animation: moving-flower-2 4s linear infinite;
     .flower__line {
-      height: 60vmin;
+      height: 90vmin;
       animation-delay: 0.6s;
 
       &__leaf {
@@ -357,7 +357,7 @@ body {
   }
 
   &__line {
-    height: 55vmin;
+    height: 83vmin;
     width: 1.5vmin;
     background-image: linear-gradient(
         to left,
