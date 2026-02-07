@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";onload=()=>{const n=setTimeout(()=>{document.body.classList.remove("not-loaded");const e="Some flowers for a tomato".split(""),i=document.getElementById("title");let t=0;function o(){t<e.length&&(i.innerHTML+=e[t],t++,setTimeout(o,300))}o(),clearTimeout(n)},1e3)};
